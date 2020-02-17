@@ -13,7 +13,7 @@ edition = "2018"
 readme = "README.md"
 
 [dependencies]
-dbus = { path = "../dbus", version = "0.8", features=["futures"] }
+dbus = "0.8.*"
 mio = "0.6.21"
 tokio = {version = "0.2.4", features=["time", "macros", "io-driver", "rt-core", "rt-util", "rt-threaded", "stream"]}
 
